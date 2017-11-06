@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <script src="./assets/react.js"></script>
+    <script src="./assets/react-dom.js"></script>
+    <script src="./assets/babel.min.js"></script>
+    <title>Hello World in JSX</title>
+
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+    const {render} = ReactDOM;
+
+    render(
+        <h1 id="title" className="header" style={{backgroundColor:'red', color:'#6cf', fontFamily:'verdana'}}> Hello World! </h1>,
+        document.getElementById('root')
+    );
+
+</script>
+</body>
+</html>

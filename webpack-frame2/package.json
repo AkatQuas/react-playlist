@@ -1,0 +1,38 @@
+{
+  "name": "webpack-frame1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/webpack-dev-server",
+    "babel": "./node_modules/.bin/babel ./src/index.js --out-file ./dist/bundle.js",
+    "webpack": "./node_modules/.bin/webpack"
+  },
+  "author": "AkatQuas",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-latest": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "json-loader": "^0.5.7",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2"
+  },
+  "dependencies": {
+    "create-react-class": "^15.6.0",
+    "history": "^4.7.2",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-router": "^4.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
