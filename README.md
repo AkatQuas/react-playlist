@@ -19,10 +19,14 @@ Feel free to play or contact me!
 And then you are free to fly!
 
 ## Small tips on React
-* `Class` should be name with PascalCase rather than camelCase or kabab-case.
-* Several ways to create `Component`, `createReactClass` /  `extends React.Component` / `stateless functional Components`. It is a good way to use `stateless functional Components` which might have better performance.
-* `react-icons` is an awesome icons library. 
-* `prop-types` has been moved out of the `React` package to another individual package. See [this](https://github.com/facebook/prop-types#prop-types). It is not compulsory.
-* `react-router`, something useful is in the `history` package.
-* `Link` is in the `react-router-dom` package, maybe you need to install manually.
-* `setState` is used to set some data to the component's state, rather than just give an assignment statement.
+- `Class` should be name with PascalCase rather than camelCase or kabab-case.
+- Several ways to create `Component`, `createReactClass` /  `extends React.Component` / `stateless functional Components`. It is a good way to use `stateless functional Components` which might have better performance.
+- `react-icons` is an awesome icons library. 
+- `prop-types` has been moved out of the `React` package to another individual package. See [this](https://github.com/facebook/prop-types#prop-types). It is not compulsory.
+- `react-router`, something useful is in the `history` package.
+- `Link` is in the `react-router-dom` package, maybe you need to install manually.
+- `setState` is used to set some data to the component's state, rather than just give an assignment statement.
+- in `Visual Studio Code`, add `"files.associations": { "*.js": "javascriptreact" }` to use the jsx syntax in react-related-js files.
+- you cannot return false to prevent default behavior in React. You must call preventDefault explicitly.
+- Using Typescript with Creat React App, just run `creat-react-app my-app --script-version=react-scripts-ts`.
+- `Formatting Code Automatically`, read this [article](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#formatting-code-automatically).
