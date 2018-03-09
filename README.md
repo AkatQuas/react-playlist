@@ -6,6 +6,12 @@ Feel free to play or contact me!
 * `webpack-frame` folders, you need `cd` into one of them and `npm install` then `npm run dev`, everything should be fine. Though the `dev` command is kind of tricky because I keep the dist folder rather than a single `index.html` outside the dist folder, anthor thing to tackle.
 * If you want to `npm run build`, at this moment(20/09/2017), I don't know the exact way how the webpack working. Cleaning the dist folder is kind of beyond me.
 
+## About the tutorials
+
+After a long time, I turn back to ReactJS. So I have to learn a lot of things from very start.
+
+Many of them are from the official documentation examples.
+
 ## Start the webpack project manually
 * create `package.json` via `npm init`.
 * create `webpack.config.js`, configuring the basic config.
