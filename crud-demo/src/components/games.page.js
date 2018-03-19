@@ -5,6 +5,10 @@ import { fetchGames } from "../store/actions";
 import PropTypes from "prop-types";
 
 class GamesPage extends React.Component {
+    static propTypes = {
+        games: PropTypes.array.isRequired,
+        fetchGames: PropTypes.func.isRequired
+    }
     componentDidMount() {
         this.props.fetchGames();
     }
@@ -16,11 +20,6 @@ class GamesPage extends React.Component {
             </div>
         )
     }
-}
-
-GamesPage.propTypes = {
-    games: PropTypes.array.isRequired,
-    fetchGames: PropTypes.func.isRequired
 }
 
 const mapStateToProps = state => ({

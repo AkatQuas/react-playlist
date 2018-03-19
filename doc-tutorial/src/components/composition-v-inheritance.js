@@ -14,22 +14,21 @@ const WelComeDialog = _ => {
         </FancyBorder>)
 };
 
-class SingleFather extends React.Component {
-    render() {
-        const children = this.props.children;
-        return (<div>
-            {children}
-            {this.props.name}
-        </div>)
-    };
-}
+const SingleFather = ({ children, name }) => (
+    <div>
+        {children}
+        {name}
+    </div>
+)
 
 SingleFather.defaultProps = {
     name: 'Strange'
-};
+}
+
 SingleFather.propTypes = {
     children: PropTypes.element.isRequired
-};
+}
+
 
 export default _ => (
     <div>
