@@ -1,0 +1,14 @@
+{
+    "persons": [
+        {
+            "name": "Allen Por",
+            "label": "Java engineer"
+        },
+        {
+            "name": "Xian Ju",
+            "label": " Java creator"
+        }
+    ],
+    "department": "JAVA",
+    "manager": "XIAIAOAOE"
+}

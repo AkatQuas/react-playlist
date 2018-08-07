@@ -1,0 +1,9 @@
+{
+    "title": "CNCNWelcome to react using react-i18next",
+    "description": {
+        "part1": "CNCNTo get started, edit <1>src/App.js</1> and save to reload.",
+        "part2": "SCNCNwitch language between english and german using buttons above."
+    },
+    "icu": "CNCN{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}",
+    "icu_and_trans": "CNCNWe invited <0>{numPersons, plural, =0 {no persons} =1 {one person} other {# persons}}</0>."
+}

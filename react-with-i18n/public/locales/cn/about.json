@@ -1,0 +1,14 @@
+{
+    "persons": [
+        {
+            "name": "CN Allen",
+            "label": "CN Web engineer"
+        },
+        {
+            "name": "CN Yanghuan",
+            "label": "CN Web creator"
+        }
+    ],
+    "department": "Web",
+    "manager": "SUN YUN PING"
+}
