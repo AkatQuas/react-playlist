@@ -54,7 +54,7 @@ Using it with Array
     "tree": {
         "res": "added {{something}}"
     },
-    "array": ['a', 'b', 'c'],
+    "array": ["a", "b", "c"],
     "arrayJoin": [
       "line1",
       "line2",
@@ -83,6 +83,8 @@ i18next.t('arrayJoinWithInterpolation', { myVar: 'interpolate', joinArrays: ' ' 
 ```
 
 # Usage
+
+1. Create a `locales/{{lng}}/{{ns}}.json` files to store the text or paragraphs.
 
 1. Init the `i18n` instance in [a single file](./src/i18n.js).
 
