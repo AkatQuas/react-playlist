@@ -3,10 +3,7 @@ import TouchBackend from 'react-dnd-touch-backend';
 import { DragDropContext, DragSource } from 'react-dnd';
 import PropTypes from 'prop-types';
 
-const NODE_TOP = 0;
-const NODE_LFET = 0;
 const NN_MID = document.documentElement.clientWidth / 2;
-let NODE_STYLE = {};
 
 class Card extends Component {
     constructor (props) {
@@ -22,7 +19,7 @@ class Card extends Component {
     render () {
         const { isDragging, connectDragSource, clientOffset } = this.props;
         const cute = document.querySelector('#cute');
-        let top, left;
+        let top, left, NODE_STYLE;
 
         if (cute) {
             top = cute.offsetTop;
@@ -73,10 +70,10 @@ class Card extends Component {
     }
 }
 
-const cardSource = {
+const _source = {
     beginDrag (props) {
         return {
-            text: props.text
+            ...props
         };
     }
 };
@@ -89,9 +86,8 @@ function collect (connect, monitor) {
     };
 }
 
-export const a = DragSource('card', cardSource, collect)(Card);
 export default DragDropContext(TouchBackend({
     enableTouchEvents: true,
     enableMouseEvents: true,
     enableKeyboardEvents: false
-}))(a);
+}))(DragSource('card', _source, collect)(Card));

@@ -1,5 +1,5 @@
 'use strict';
-const { resolve }= require('./utils');
+const { resolve } = require('./utils');
 
 const data = [
     {
@@ -8,9 +8,14 @@ const data = [
         type: 'h5'
     },
     {
-        title: 'drag',
-        name: 'drag',
+        title: 'phone - touch',
+        name: 'touch',
         type: 'h5'
+    },
+    {
+        title: 'pc - mouse',
+        name: 'mouse',
+        type: 'pc'
     }
 ];
 
